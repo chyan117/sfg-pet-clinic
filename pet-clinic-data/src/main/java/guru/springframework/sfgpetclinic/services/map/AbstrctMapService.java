@@ -27,6 +27,8 @@ public abstract class AbstrctMapService<T extends BaseEntity, ID extends Long> {
         return object;
     }
 
+    
+
     void deleteById(ID id){
         map.remove(id);
     }
